@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".splash"
+    android:layout_width="match_parent"
+
+    android:background="@drawable/spl"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="85dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background"
+        android:text="Never Settle for \n Less Than BEST"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="HTG"
+    android:textColor="@color/cardview_light_background"
+    android:textSize="25sp"
+
+    android:layout_gravity="bottom"/>
+</LinearLayout>
